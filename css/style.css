@@ -1375,7 +1375,7 @@ a { text-decoration: none; color: inherit; }
 
 .footer-top {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 48px;
   margin-bottom: 56px;
 }
@@ -1446,7 +1446,7 @@ a { text-decoration: none; color: inherit; }
 
 @media (max-width: 900px) {
   .footer { padding: 48px 20px 24px; }
-  .footer-top { grid-template-columns: 1fr 1fr; }
+  .footer-top { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
